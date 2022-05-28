@@ -14,13 +14,16 @@ export class SidebarComponent implements OnInit {
   constructor() {
     this.sidebarItemData = [
       {
-        text:'All Tasks'
+        text:'All Tasks',
+        route:''
       },
       {
-        text:'Due Today'
+        text:'Due Today',
+        route:'due-today'
       },
       {
-        text:'Important'
+        text:'Important',
+        route:'important'
       }
 
     ]

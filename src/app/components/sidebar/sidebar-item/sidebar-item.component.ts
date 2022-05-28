@@ -20,6 +20,5 @@ export class SidebarItemComponent implements OnInit {
 
 export interface SidebarItem {
   text: string;
-  // icon: string;
-  // route: string;
+  route: string;
 }

@@ -1,1 +1,18 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 0.145fr repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 
+.sidebar { grid-area: 2 / 1 / 4 / 2; }
+
+.navbar {
+  background: aquamarine;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.content { grid-area: 2 / 2 / 4 / 3; }
