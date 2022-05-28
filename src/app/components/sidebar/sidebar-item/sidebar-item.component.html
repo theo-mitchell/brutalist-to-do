@@ -1,3 +1,11 @@
+<link rel="stylesheet" href="sidebar-item.component.scss">
 <div class="container">
-  <a routerLink="{{itemData?.route}}" routerLinkActive="active">{{itemData?.text}}</a>
+  <a
+    routerLink="{{itemData?.route}}"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+    class="sidebar-item"
+  >
+    {{itemData?.text}}
+  </a>
 </div>

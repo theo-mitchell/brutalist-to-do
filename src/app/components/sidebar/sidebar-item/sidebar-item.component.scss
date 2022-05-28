@@ -8,3 +8,15 @@
   align-items: center;
   justify-content: center;
 }
+
+a:link.sidebar-item {
+  text-decoration: none;
+}
+
+a.sidebar-item {
+  color: greenyellow;
+}
+
+a.sidebar-item.active {
+  color: red;
+}
